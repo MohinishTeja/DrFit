@@ -11,8 +11,15 @@ body {
   padding: 0;
 }
 
+.description{
+  text-align: right
+  color: white
+  font-size: 18px
+}
+
 nav {
-  box-sizing: border-box;
+  box-s
+  izing: border-box;
   background: rgba(70, 65, 65, 0.2);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
