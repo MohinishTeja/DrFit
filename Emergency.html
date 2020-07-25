@@ -9,9 +9,31 @@
   <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="login.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 </head>
 
 <body style="background-color: #3377FF">
+  <div class="alan-btn"></div>
+  <script type="text/javascript"
+ src="https://studio.alan.app/web/lib/alan_lib.js"></script>
+<script>
+  var alanBtnInstance = alanBtn({
+    key: "66157f1f82040fb72ff9f3ee75c193942e956eca572e1d8b807a3e2338fdd0dc/stage",
+    onCommand: function (commandData) {
+      if (commandData.command === "em") {
+        //call client code that will react on the received command
+        def();
+
+      }
+    },
+    rootEl: document.getElementById("alan-btn"),
+  });
+
+
+  function def(){
+    document.getElementById("pac-input").innerHTML="hospitals near me";
+  }
+</script>
   <nav>
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
