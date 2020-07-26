@@ -20,7 +20,7 @@ Bootstrap HTML/CSS/JS
   * Use of SmartForm for Contact
   * Frontend Framework
 
- * GitHub
+GitHub
   * File Management
   * Hosting
  Node Js
