@@ -1,5 +1,5 @@
 ## Inspiration
-We wanted to help patients that were getting neglected due to COVID-19 patients. This problem is what motivated us to create this project.
+We wanted to help patients that were getting neglected due to COVID-19. This problem is what motivated us to create this user-friendly interface in order to minimize the time for doctor review.
 
 ## What it does
 
