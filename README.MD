@@ -1,8 +1,8 @@
 ## Inspiration
-We wanted to help patients that were getting neglected due to COVID-19. This problem is what motivated us to create this user-friendly interface in order to minimize the time for doctor review.
+A potential challenge during the pandemic outbreak like COVID19 is overwhelming hospitals. Due to the increase in the number of COVID patients, doctors are giving less attention to a non-COVID patient. Right now, hospitals don't have the capacity for the large number of incoming patients. There is a need for a technology platform which is capable of remote-monitoring and allowing for the engagement of patients in their homes. The capabilities also facilitate communication between quarantined people and the healthcare service and maintain visibility of those recently discharged. This problem is what inspired us to make this user-friendly interface.
 
 ## What it does
-DrFit platform offers an ideal way to monitor patients while they are in quarantine or at home. The device hub include those that measure vital body temperature, heart rate, blood pressure, SPO2 level in the blood. The information of the vital signs will be updated via web to the doctors
+DrFit platform offers an ideal way to monitor patients while they are in quarantine. The device hub include those that measure vital body temperature, heart rate, blood pressure, SPO2 level in the blood. The information of the vital signs will be updated via web to the doctors.
 
 ## How we built it
 We used the Google Cloud Platform along with Firebase for this project.
@@ -19,24 +19,26 @@ Bootstrap HTML/CSS/JS
   * Use of JQuery
   * Use of SmartForm for Contact
   * Frontend Framework
-  
+
  * GitHub
   * File Management
   * Hosting
  Node Js
  * Firebase Modules
- 
+
  Alan - Alan is a Smart Assistant that we have built for users to ask simple questions. *You can ask it I have a Cough* and it will respond
- 
+
 ## Challenges we ran into
 There were many challenges we ran into, but that's what programming's all about. One of the difficult challenges we ran into was making sure the UI worked. Another challenge was figuring out how to to extract information from the JSON file to the website.
 
 ## Accomplishments that we're proud of
 
 ## What we learned
+* Creating realtime databases
+* Firebase
+* User Authentication
 
 ## What's next for DrFit
-
 * Implement Google Assistant instead of Alan (Wider range of possibilites)
 * Create a Watch Application (Apple watch and Galaxy Watch) to have realtime data about Vitals
 * Implement more Google Cloud Features including Tensorflow AI for medical classification and image classificatin to find various conditions
