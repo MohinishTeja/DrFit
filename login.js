@@ -49,9 +49,8 @@ function log(){
 
                 if (errorCode !=null || errorMessage != null){
                     alert("Error " + errorCode + " Error Message " + errorMessage)
-                } else {
-                    window.location.href = "patient-info.html"
                 }
+                window.location.href = "patient-info.html"
                 // ...
             });
           
