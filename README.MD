@@ -2,6 +2,7 @@
 We wanted to help patients that were getting neglected due to COVID-19. This problem is what motivated us to create this user-friendly interface in order to minimize the time for doctor review.
 
 ## What it does
+DrFit platform offers an ideal way to monitor patients while they are in quarantine or at home. The device hub include those that measure vital body temperature, heart rate, blood pressure, SPO2 level in the blood. The information of the vital signs will be updated via web to the doctors
 
 ## How we built it
 We used the Google Cloud Platform along with Firebase for this project.
