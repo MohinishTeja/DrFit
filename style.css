@@ -177,7 +177,6 @@ a:hover {
   box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
   width: 50vw;
   height: 50vh;
-  z-index: 1;
   /* box-sizing: border-box; */
 }
 
