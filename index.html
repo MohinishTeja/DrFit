@@ -71,23 +71,16 @@
                 <div class="col-sm-3">
                     <h5>Get started</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Reviews</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="signup.html">Sign up</a></li>
+                        <li><a href="logout.html">Log Out</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <h5>Support</h5>
                     <ul>
-                        <li><a href="#">Contact Support</a></li>
-                        <li><a href="#">Contact a Doctor</a></li>
+                        <li><a href="contact.html">Contact Support</a></li>
+                        <li><a href="Emergency.html">Contact a Doctor</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -105,4 +98,27 @@
         </div>
     </footer>	
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAEpK-QycuWRN2QAVX9OxYtoQh5aOYzD7I",
+    authDomain: "sigmahacks-f60d1.firebaseapp.com",
+    databaseURL: "https://sigmahacks-f60d1.firebaseio.com",
+    projectId: "sigmahacks-f60d1",
+    storageBucket: "sigmahacks-f60d1.appspot.com",
+    messagingSenderId: "192614888023",
+    appId: "1:192614888023:web:11e0706d66cd5e3786a912",
+    measurementId: "G-7FB9PE0NZQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 </html>
