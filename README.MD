@@ -32,6 +32,7 @@ GitHub
 There were many challenges we ran into, but that's what programming's all about. One of the difficult challenges we ran into was making sure the UI worked. Another challenge was figuring out how to to extract information from the JSON file to the website.
 
 ## Accomplishments that we're proud of
+We are proud of so many things. We made use of this project to the best of our abilities in this 24 Hours of time. We got to use the Google Cloud Platform, which is a first for all of us, we had never used GCP before and now we will continue to use this platform. Additionally, we combined all of our skills to create a website that use multiple frameworks and we are proud of this website. We love the UI/UX and we love the Backend, it was our first time as well using these frameworks. Finally, we are proud of the amount of work we pulled of in 24 hours. We would have never thought we could accmplish this much in such a small amount of time.
 
 ## What we learned
 * Creating realtime databases
