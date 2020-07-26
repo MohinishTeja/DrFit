@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="login.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="login.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="manifest" href="manifest.json">
@@ -52,7 +51,7 @@
                     <div class="form-group"><label for="password">Password</label><input class="form-control" type="password" id="password"></div>
                     <div class="form-group">
                         <div class="form-check"><input class="form-check-input" type="checkbox" id="checkbox"><label class="form-check-label" for="checkbox">Remember me</label></div>
-                    </div><button class="btn btn-primary btn-block" type="submit">Log In</button></form>
+                    </div><button class="btn btn-primary btn-block" type="button" id="login">Log In</button></form>
             </div>
         </section>
     </main>
@@ -126,6 +125,31 @@
         </div>
     </footer>	
 </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAEpK-QycuWRN2QAVX9OxYtoQh5aOYzD7I",
+    authDomain: "sigmahacks-f60d1.firebaseapp.com",
+    databaseURL: "https://sigmahacks-f60d1.firebaseio.com",
+    projectId: "sigmahacks-f60d1",
+    storageBucket: "sigmahacks-f60d1.appspot.com",
+    messagingSenderId: "192614888023",
+    appId: "1:192614888023:web:11e0706d66cd5e3786a912",
+    measurementId: "G-7FB9PE0NZQ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script type="module" src="login.js"></script>
 
 </html>
