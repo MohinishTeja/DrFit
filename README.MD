@@ -5,7 +5,7 @@ A potential challenge during the pandemic outbreak like COVID19 is overwhelming 
 DrFit platform offers an ideal way to monitor patients while they are in quarantine. The device hub include those that measure vital body temperature, heart rate, blood pressure, SPO2 level in the blood. The information of the vital signs will be updated via web to the doctors.
 
 ## How we built it
-We used the Google Cloud Platform along with Firebase for this project.
+We used the Google Cloud Platform along with Firebase for this project. We used Flutter to create the app.
 * Firebase
   * User Authentication
   * Realtime Database
@@ -25,6 +25,8 @@ GitHub
   * Hosting
  Node Js
  * Firebase Modules
+ 
+ Flutter
 
  Alan - Alan is a Smart Assistant that we have built for users to ask simple questions. *You can ask it I have a Cough* and it will respond
 
